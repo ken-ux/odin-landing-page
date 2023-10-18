@@ -33,7 +33,7 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -56,9 +56,11 @@ body {
 }
 
 .placeholder {
-    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategrey;
     color: #F9FAF8;
-    text-align: center;
     height: 250px;
 }
 
@@ -75,6 +77,7 @@ body {
 .information h2 {
     font-size: 36px;
     font-weight: bold;
+    color: #1F2937;
     text-align: center;
 }
 
@@ -87,4 +90,13 @@ body {
 
 .squares {
     display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.squares > * {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
 }
