@@ -100,3 +100,31 @@ body {
     width: 150px;
     text-align: center;
 }
+
+.quote {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #E5E7EB;
+}
+
+.quote > div {
+    max-width: 60%;
+    margin: auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    /* This font-weight isn't available in the font family, I think. */
+    /* font-weight: lighter; */
+    font-style: italic;
+    color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}
